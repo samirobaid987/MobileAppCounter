@@ -12,6 +12,7 @@ export function HeaderLoginButton() {
     <TouchableOpacity 
       onPress={() => router.push('/login')}
       style={{ marginRight: 15 }}
+      testID="header-login-button"
     >
       <IconSymbol 
         name="person.fill" 
